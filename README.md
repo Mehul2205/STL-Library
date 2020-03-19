@@ -37,7 +37,7 @@ string s6 (s1.begin(), s1.begin()+3);              // s6 = “Hel”
 * size(): Returns the length of the string. Its time complexity is O(1).
 * substr(): Returns a string which is the copy of the substring. Its time complexity is O(N) where N is the size of the substring.
 
-
+-------------------------------------------------------
 # 2. Vector
 
 ```
@@ -82,6 +82,7 @@ void traverse(vector<int> v)
  }
 ```
 
+-------------------------------------------------------
 ## 3. List
 
 ```
@@ -111,6 +112,7 @@ list<int> LI1(5, 100)                    \\ here LI will have 5 int elements of 
 * reverse ( ): It reverses the order of elements in the list. Its time complexity is O(N).
 * size( ): It returns the number of elements in the list. Its time complexity is O(1).
 
+-------------------------------------------------------
 ## 4. Pair
 
 ```
@@ -129,7 +131,7 @@ pair <int, char> p3 (p2);               // copy of p2
 * first: return the first element(variable)
 * second: return the second element (variable)
 
-
+-------------------------------------------------------
 ## 5. Set
 
 ```
@@ -156,6 +158,7 @@ set<int> s4 (s3.begin(), s3.end());         // Set created using iterators
 * insert(): insert a new element. Its time complexity is O(logN) where N is the size of the set.
 * size(): Returns the size of the set or the number of elements in the set. Its time complexity is O(1).
 
+-------------------------------------------------------
 ## 6. Map
 
 ```
@@ -179,3 +182,5 @@ mp['a']  = 2;
 * erase( ): removes a single element or the range of element from the map.
 * find( ): Searches the map for the element with the given key, and returns an iterator to it, if it is present in the map otherwise it returns an iterator to the theoretical element which follows the last element of map.Its time complexity is O(logN).
 * insert( ): insert a single element or the range of element in the map.Its time complexity is O(logN), when only element is inserted and O(1) when position is also given.
+
+-------------------------------------------------------
